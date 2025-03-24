@@ -20,7 +20,6 @@ jobs:
           DETECT_PROJECT_NAME: ${{ github.event.repository.name }}
           
         with:
-          ### SCANNING: Required fields
           blackducksca_url: ${{ vars.BLACKDUCKSCA_URL }}
           blackducksca_token: ${{ secrets.BLACKDUCKSCA_TOKEN }}
          
